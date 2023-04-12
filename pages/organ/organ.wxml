@@ -1,0 +1,15 @@
+<view>
+  <input class="cityname" type="text" model:value="{{cityName}}"/>
+  <text class="search" bindtap="search">搜索</text>
+</view>
+<view class="organ" wx:for="{{cityList}}">
+  <view>
+    {{item.name}}
+  </view>
+  <view>
+    {{item.phone}}
+  </view>
+  <view>
+    {{item.address}}
+  </view>
+</view>

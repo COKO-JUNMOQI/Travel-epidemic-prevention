@@ -1,0 +1,13 @@
+<swiper indicator-dots="{{indicatorDots}}"
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{background}}" wx:key="*this">
+          <swiper-item>
+            <image src="{{item}}"></image>
+          </swiper-item>
+        </block>
+</swiper>
+
+<view class="box" wx:for="{{cities}}">
+  <view class="province">{{item.province}}省</view>
+    <text bindtap="cityPolicy" class="city" wx:for="{{item.citys}}" id="{{item.city_id}}">{{item.city}}市</text>
+</view>

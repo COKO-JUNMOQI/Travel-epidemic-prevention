@@ -1,0 +1,24 @@
+.box{
+  width: 95%;
+  margin: 10px auto;
+  background-color: antiquewhite;
+  border-radius: 10px;
+}
+.province{
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 24px;
+  font-weight: bold;
+  color: rebeccapurple;
+}
+.city{
+  display: inline-block;
+  width: 30%;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}

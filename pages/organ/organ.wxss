@@ -1,0 +1,25 @@
+.cityname{
+  width: 75%;
+  height: 25px;
+  line-height: 25px;
+  border: 1px solid black;
+  display: inline-block;
+  vertical-align: middle;
+}
+.search{
+  width: 20%;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  display: inline-block;
+  background-color: green;
+  color: white;
+}
+.organ{
+  width: 95%;
+  margin: 10px auto;
+  background-color: rgb(209, 209, 209);
+  border-radius: 10px;
+  text-indent: 10px;
+  line-height: 25px;
+}

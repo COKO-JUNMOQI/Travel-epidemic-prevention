@@ -1,0 +1,27 @@
+.riskcount{
+  width: 95%;
+  margin: 10px auto;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: antiquewhite;
+  color: rgb(0, 223, 148);
+}
+.count{
+  color: rgb(255, 0, 0);
+}
+.riskcity{
+  width: 95%;
+  margin: 10px auto;
+  background-color: rgb(145, 255, 135);
+}
+.title{
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(255, 85, 85);
+}
+.cityname{
+  font-size: 22px;
+  font-weight: bold;
+  color: rgb(255, 138, 42);
+}

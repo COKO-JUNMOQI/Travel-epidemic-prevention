@@ -1,0 +1,10 @@
+<view>
+  <text>账号</text><input type="text" model:value="{{username}}"/>
+</view>
+<view>
+  <text>密码</text><input type="text" model:value="{{password}}"/>
+</view>
+<view>
+  <button bindtap="login">登陆</button>
+</view>
+

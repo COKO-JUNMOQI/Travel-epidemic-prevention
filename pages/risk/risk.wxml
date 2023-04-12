@@ -1,0 +1,29 @@
+<view>
+  <view class="riskcount">高风险个数:<text class="count">{{high_count}}</text></view>
+  <view class="riskcount">中风险个数:<text class="count">{{middle_count}}</text></view>
+  <view class="riskcount">低风险个数:<text class="count">{{low_count}}</text></view>
+</view>
+
+<view class="riskcity">
+  <view class="title">高风险地区</view>
+  <view  wx:for="{{high_list}}">
+    <text  class="cityname">{{item.province}}{{item.city}}{{item.county}}</text>
+    <view wx:for="{{item.communitys}}">{{item}}</view>
+  </view>
+</view>
+
+<view class="riskcity">
+  <view class="title">中风险地区</view>
+  <view  wx:for="{{middle_list}}">
+    <text  class="cityname">{{item.province}}{{item.city}}{{item.county}}</text>
+    <view wx:for="{{item.communitys}}">{{item}}</view>
+  </view>
+</view>
+
+<view class="riskcity">
+  <view class="title">低风险地区</view>
+  <view  wx:for="{{low_list}}">
+    <text  class="cityname">{{item.province}}{{item.city}}{{item.county}}</text>
+    <view wx:for="{{item.communitys}}">{{item}}</view>
+  </view>
+</view>

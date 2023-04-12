@@ -1,0 +1,16 @@
+.cityname,.codename{
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: antiquewhite;
+  color: rgb(0, 109, 73);
+}
+.policy{
+  width: 95%;
+  margin: 10px auto;
+  background-color: antiquewhite;
+  border-radius: 10px;
+}

@@ -1,0 +1,7 @@
+<view class="cityname">{{cityname}}</view>
+<view class="policy">进入政策:{{inpolicy}}</view>
+<view class="policy">外出政策:{{outpolicy}}</view>
+<view class="codename">
+  <text>{{codename}}</text>
+  <image src="{{codeimg}}"></image>
+</view>

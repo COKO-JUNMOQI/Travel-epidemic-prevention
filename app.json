@@ -1,0 +1,42 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/risk/risk",
+    "pages/organ/organ",
+    "pages/person/person",
+    "pages/policy/policy"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#00DD00",
+    "navigationBarTitleText": "出行防疫",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "城市列表",
+      "iconPath":"images/city0.png",
+      "selectedIconPath":"images/city1.png"
+    }, {
+      "pagePath": "pages/risk/risk",
+      "text": "风险地区",
+      "iconPath":"images/risk0.png",
+      "selectedIconPath":"images/risk1.png"
+    }, {
+      "pagePath": "pages/organ/organ",
+      "text": "核酸检测机构",
+      "iconPath":"images/organ0.png",
+      "selectedIconPath":"images/organ1.png"
+    }, {
+      "pagePath": "pages/person/person",
+      "text": "个人中心",
+      "iconPath":"images/person0.png",
+      "selectedIconPath":"images/person1.png"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "entryPagePath": "pages/index/index"
+}
